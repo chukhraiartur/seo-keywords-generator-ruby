@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'seo-keywords-generator-ruby/cli'
+
+YourGemName::CLI.start(ARGV)
