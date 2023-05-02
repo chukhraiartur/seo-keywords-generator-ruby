@@ -1,8 +1,8 @@
-require_relative 'lib/seo-keywords-generator'
+require 'seo-keywords-generator-ruby'
 
 keyword_research = SeoKeywordsGenerator.new(
     query='starbucks coffee',
-    api_key='5868ece26d41221f5e19ae8b3e355d22db23df1712da675d144760fc30d57988',
+    api_key='<your_serpapi_api_key>',
     lang='en',
     country='us',
     domain='google.com'
