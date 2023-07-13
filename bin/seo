@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
-require 'seo-keywords-generator-ruby/cli'
+# frozen_string_literal: true
 
-YourGemName::CLI.start(ARGV)
+# Enable local usage from cloned repo
+require "seo-keywords-generator-ruby"
+
+SeoKeywordsGenerator::CLI.new(ARGV).run
