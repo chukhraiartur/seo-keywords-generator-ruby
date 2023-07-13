@@ -173,7 +173,7 @@ $ seo --api-key "<your_serpapi_api_key>" \
 ```ruby
 require 'seo-keywords-generator-ruby'
 
-keyword_research = SeoKeywordsGenerator.new(
+keyword_research = SeoKeywordsGenerator::Scraper.new(
     query='starbucks coffee',
     api_key='<your_serpapi_api_key>',
     lang='en',
